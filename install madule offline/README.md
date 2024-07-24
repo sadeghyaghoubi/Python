@@ -8,3 +8,11 @@ pip download package_name
 ```yaml
 pip install package_name.whl
 ```
+اگر چندین پکیج دانلود کردید و یخواهید بصورت یکجا دانلود کنید از دستور زیر استفاده کنید:
+```yaml
+pip install package_name.whl
+```
+درصورتی که دستور بالا عمل نکرد میتوانید از دستور زیر استفاده کنید
+```yaml
+for %i in (*.whl) do pip install %i
+```
