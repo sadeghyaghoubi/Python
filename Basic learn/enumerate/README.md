@@ -18,7 +18,9 @@ for index, fruit in enumerate(fruits):
 
 
 0 apple
+
 1 banana
+
 2 cherry
 
 گزینه‌های اضافی
@@ -34,7 +36,10 @@ for index, fruit in enumerate(fruits, start=1):
 خروجی:
 
 1 apple
+
 2 banana
+
 3 cherry
+
 این خروجی نشان می‌دهد که شمارش از 1 شروع شده است. این ویژگی در مواقعی که نیاز به شمارش از یک عدد خاص (غیر از صفر) دارید، بسیار مفید است.
 
