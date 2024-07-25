@@ -15,6 +15,7 @@ def print_numbers(*args):
         print(number)
 
 print_numbers(1, 2, 3, 4, 5)
+```
 در این مثال، print_numbers با آرگومان‌های 1, 2, 3, 4, 5 فراخوانی می‌شود. تمامی این آرگومان‌ها درون تاپل args قرار می‌گیرند و سپس چاپ می‌شوند.
 
 خروجی:
@@ -29,12 +30,13 @@ print_numbers(1, 2, 3, 4, 5)
 **kwargs به تابع اجازه می‌دهد تا تعداد نامحدودی از آرگومان‌های کلید-مقدار (نام و مقدار) را دریافت کند.
 این آرگومان‌ها به صورت یک دیکشنری (dictionary) به تابع ارسال می‌شوند.
 مثال:
-
+```python
 def print_info(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 
 print_info(name="Ali", age=30, city="Tehran")
+```
 در این مثال، print_info با آرگومان‌های کلید-مقدار name="Ali", age=30, و city="Tehran" فراخوانی می‌شود. این آرگومان‌ها درون دیکشنری kwargs قرار می‌گیرند و سپس چاپ می‌شوند.
 
 خروجی:
