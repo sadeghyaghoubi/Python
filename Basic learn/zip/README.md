@@ -24,12 +24,13 @@ print(list(zipped))
 استفاده از zip برای ایجاد دیکشنری
 برای استفاده از zip برای ایجاد دیکشنری‌ها:
 
-
+```python
 keys = ['name', 'age', 'city']
 values = ['Alice', 30, 'New York']
 
 dictionary = dict(zip(keys, values))
 print(dictionary)
+```
 
 خروجی:
 
