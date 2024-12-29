@@ -1,3 +1,4 @@
+```
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -91,3 +92,4 @@ if __name__ == "__main__":
         print(f"Unexpected error: {e}")
         with open("/var/log/ssh_monitor_error.log", "a") as error_log:
             error_log.write(f"Unexpected error: {str(e)}\n")
+```
